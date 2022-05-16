@@ -1,6 +1,10 @@
 # Ctester
 A small shell script which makes testing single file C programs easier, faster and more readable too!
 
+## Info:
+
+Platform(s): MacOS, Linux
+
 ## Usage:
 Insert the file into the folder containing your C source files, then launch it with     
 
