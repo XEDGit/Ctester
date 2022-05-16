@@ -26,16 +26,14 @@ GCC_FLAGS=""
 
 OUT_ARGS=()
 
-#	Loop through arguments array and search for options
 while [[ $I -le $ARGS_LEN ]]
 do
 	arg=${ARGS[$I]}
 	case $arg in
 
-		#	-a option will accept its arguments as the arguments of the executable when launched
 		"--a")
 			(( I = I + 1 ))
-			while [[ $I -lt $ARGS_LEN ]]
+			while [[ $I -le $ARGS_LEN ]]
 			do
 				if [[ ${ARGS[$I]} = "--"* ]]
 				then
@@ -47,7 +45,6 @@ do
 			done
 		;;
 
-		#	-d option sets the maximum depth of the find command
 		"--d")
 			NEW_VAL=${ARGS[$I + 1]}
 			if ! [[ $NEW_VAL =~ $RE ]]
@@ -58,7 +55,6 @@ do
 			MAX_DEPTH=$NEW_VAL
 		;;
 
-		#	-o option lets the user skip the file choice by presetting $TO_TEST
 		"--o")
 			NEW_VAL=${ARGS[$I + 1]}
 			if ! [[ $NEW_VAL =~ $RE ]]
@@ -71,7 +67,7 @@ do
 
 		"--f")
 			(( I = I + 1 ))
-			while [[ $I -lt $ARGS_LEN ]]
+			while [[ $I -le $ARGS_LEN ]]
 			do
 				if [[ ${ARGS[$I]} = "--"* ]]
 				then
