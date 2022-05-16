@@ -27,7 +27,7 @@ GCC_FLAGS=""
 OUT_ARGS=()
 
 #	Loop through arguments array and search for options
-while [[ $I -lt $ARGS_LEN ]]
+while [[ $I -le $ARGS_LEN ]]
 do
 	arg=${ARGS[$I]}
 	case $arg in
