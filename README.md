@@ -4,7 +4,9 @@ A small shell script which makes testing single file C programs easier, faster a
 ## Info:
 
 ### Platform(s):
-MacOS, Linux
+
+  - Linux 🐧
+  - MacOS 🍏
 
 ## Usage:
 Insert the file into the folder containing your C source files, then launch it with     
