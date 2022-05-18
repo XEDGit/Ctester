@@ -22,13 +22,15 @@ A small shell script which makes testing single file C programs easier, faster a
 
 ## Usage:
 
-Insert the file into the folder containing your C source files, then launch it with     
+Insert the file into the folder containing your C source files, then launch it inside your terminal with   
 
     ./ctester.sh
-    
-inside your terminal.
 
-You'll get prompted with a list of files, choose the corresponding number and the script will automatically compile and launch your code
+You'll get prompted with a list of files
+
+
+
+Choose the corresponding number and the script will automatically compile and launch your code
 
 ### Flags:
 
