@@ -26,11 +26,7 @@ Insert the file into the folder containing your C source files, then launch it i
 
     ./ctester.sh
 
-You'll get prompted with a list of files
-
-
-
-Choose the corresponding number and the script will automatically compile and launch your code
+You'll get prompted with the list of found .c files, choose the corresponding number and the script will automatically compile and launch your code
 
 ### Flags:
 
