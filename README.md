@@ -30,7 +30,7 @@ inside your terminal.
 
 You'll get prompted with a list of files, choose the corresponding number and the script will automatically compile and launch your code
 
-### Flags
+### Flags:
 
  - #### Optional:
     
